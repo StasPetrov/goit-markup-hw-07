@@ -1,0 +1,45 @@
+.banner-buttons {
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
+  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--primary-blue-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.banner-buttons:hover,
+.banner-buttons:focus {
+  background-color: #188ce8;
+}
+
+.banner-buttons.button-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px;
+  margin-left: 12px;
+}
+
+.banner-buttons.button-subscribe:hover,
+.banner-buttons.button-subscribe:focus {
+  background-color: #188ce8;
+}
+
+.banner-buttons.contact-form-submit-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 56px;
+}
+
+.banner-buttons.contact-form-submit-btn:hover,
+.banner-buttons.contact-form-submit-btn:focus {
+  background-color: #188ce8;
+}
