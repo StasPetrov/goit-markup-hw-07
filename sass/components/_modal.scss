@@ -26,10 +26,10 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  fill: var(--primary-blue-color);
-  outline: none;
+  &:hover,
+  &:focus {
+    fill: var(--primary-blue-color);
+    outline: none;
+  }
 }

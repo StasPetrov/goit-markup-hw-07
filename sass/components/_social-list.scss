@@ -17,16 +17,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: #2196f3;
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--primary-white-color);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
 }
 
 .social-list-icon {
@@ -34,4 +29,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: var(--primary-white-color);
+  }
 }

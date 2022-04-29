@@ -8,10 +8,10 @@
 
 .team-card {
   background-color: var(--primary-white-color);
-}
 
-.team-card:not(:nth-child(4n)) {
-  margin-right: 30px;
+  &:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
 }
 
 .team-card-container {
