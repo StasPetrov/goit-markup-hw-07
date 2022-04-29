@@ -1,20 +1,16 @@
-.projects {
-  padding-top: 0;
-}
-
 .project-list {
   display: flex;
 }
 
-.project-item:not(:nth-child(3n)) {
+.project-list__item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.project-item-wrapper {
+.project-list__item-wrapper {
   position: relative;
 }
 
-.project-item-overlay {
+.project-list__overlay {
   position: absolute;
   bottom: 0;
   left: 0;

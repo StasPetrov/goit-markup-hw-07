@@ -6,11 +6,11 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  &-black {
+  &--color--black {
     color: #000000;
   }
   
-  &-white {
+  &--color--white {
     color: var(--primary-white-color);
   }
 }
