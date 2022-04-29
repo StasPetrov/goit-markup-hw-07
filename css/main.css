@@ -121,11 +121,11 @@ img {
   color: var(--primary-blue-color);
 }
 
-.site-nav__current--color--blue {
+.site-nav__link--current {
   color: var(--primary-blue-color);
 }
 
-.site-nav__current--color--blue::after {
+.site-nav__link--current::after {
   content: "";
   width: 100%;
   height: 4px;
