@@ -82,7 +82,7 @@ img {
   justify-content: space-between;
 }
 
-.navigation {
+.site-header__navigation {
   display: flex;
   align-items: center;
 }
