@@ -23,14 +23,12 @@
   <body>
     <!-- Шапка сайта -->
     <header class="site-header">
-      <div class="container header-container">
+      <div class="container site-header__container">
         <nav class="navigation">
           <a class="logo" href="./index.html">Web<span class="logo--color--black">Studio</span></a>
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a class="site-nav__link site-nav__link--current" href="./index.html"
-                >Студия</a
-              >
+              <a class="site-nav__link site-nav__link--current" href="./index.html">Студия</a>
             </li>
             <li class="site-nav__item">
               <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
@@ -67,15 +65,15 @@
       <!-- Баннер -->
       <section class="banner">
         <div class="container">
-          <h1 class="banner-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="banner-buttons" type="button" data-modal-open>Заказать услугу</button>
+          <h1 class="banner__title">Эффективные решения для вашего бизнеса</h1>
+          <button class="banner__buttons" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
       <!-- Особенности -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title visually-hidden">Особенности</h2>
+          <h2 class="section__title visually-hidden">Особенности</h2>
           <ul class="features-list">
             <li class="features-list__item">
               <div class="features-list__icon-container">
@@ -128,7 +126,7 @@
       <!-- Чем мы занимаемся -->
       <section class="section section--padding--zero">
         <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
+          <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="project-list">
             <li class="project-list__item">
               <div class="project-list__item-wrapper">
@@ -165,9 +163,9 @@
       </section>
 
       <!-- Наша команда -->
-      <section class="section section--background-color--white">
+      <section class="section section--background--white">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="section__title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__item">
               <img src="./images/demyanenko.jpg" alt="Игорь Демьяненко" width="270" />
@@ -306,7 +304,7 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Постоянные клиенты</h2>
+          <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="clients-list">
             <li class="clients-list__item">
               <a class="clients-list__link" href=""
@@ -385,31 +383,31 @@
           </div>
           <div class="footer-social">
             <p class="footer-social__text">Присоединяйтесь</p>
-            <ul class="footer-social__list">
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon" width="20px" height="20px">
+            <ul class="footer-social-list">
+              <li class="footer-social-list__item">
+                <a class="footer-social-list__link" href="">
+                  <svg class="footer-social-list__icon" width="20px" height="20px">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon" width="20px" height="20px">
+              <li class="footer-social-list__item">
+                <a class="footer-social-list__link" href="">
+                  <svg class="footer-social-list__icon" width="20px" height="20px">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon" width="20px" height="20px">
+              <li class="footer-social-list__item">
+                <a class="footer-social-list__link" href="">
+                  <svg class="footer-social-list__icon" width="20px" height="20px">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link" href="">
-                  <svg class="footer-social__icon" width="20px" height="20px">
+              <li class="footer-social-list__item">
+                <a class="footer-social-list__link" href="">
+                  <svg class="footer-social-list__icon" width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -426,7 +424,7 @@
                 placeholder="E-mail"
                 required
               />
-              <button class="banner-buttons footer-subscribe-form__button" type="submit">
+              <button class="banner__buttons footer-subscribe-form__button" type="submit">
                 Подписаться
                 <svg class="footer-subscribe-form__icon" width="24px" height="24px">
                   <use
@@ -499,7 +497,7 @@
               >
             </label>
           </div>
-          <button class="banner-buttons contact-form-submit-btn" type="submit">Отправить</button>
+          <button class="banner__buttons contact-form-submit-btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>

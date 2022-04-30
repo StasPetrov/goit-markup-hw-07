@@ -62,15 +62,15 @@
   text-transform: uppercase;
 }
 
-.footer-social__list {
+.footer-social-list {
   display: flex;
 }
 
-.footer-social__item:not(:last-child) {
+.footer-social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social__link {
+.footer-social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +88,7 @@
   }
 }
 
-.footer-social__icon {
+.footer-social-list__icon {
   fill: var(--primary-white-color);
 }
 

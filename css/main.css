@@ -61,7 +61,7 @@ img {
   padding-top: 0;
 }
 
-.section--background-color--white {
+.section--background--white {
   background-color: #f5f4fa;
 }
 
@@ -76,7 +76,7 @@ img {
   padding: 24px 0;
 }
 
-.header-container {
+.site-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,7 +183,7 @@ img {
   background-position: center;
 }
 
-.banner-title {
+.banner__title {
   margin: 0 auto 30px;
   width: 696px;
   color: var(--primary-white-color);
@@ -397,15 +397,15 @@ img {
   text-transform: uppercase;
 }
 
-.footer-social__list {
+.footer-social-list {
   display: flex;
 }
 
-.footer-social__item:not(:last-child) {
+.footer-social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social__link {
+.footer-social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -418,11 +418,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social__link:hover, .footer-social__link:focus {
+.footer-social-list__link:hover, .footer-social-list__link:focus {
   background-color: var(--primary-blue-color);
 }
 
-.footer-social__icon {
+.footer-social-list__icon {
   fill: var(--primary-white-color);
 }
 
@@ -588,7 +588,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.banner-buttons {
+.banner__buttons {
   padding: 10px 32px;
   border-radius: 4px;
   border: transparent;
@@ -605,11 +605,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.banner-buttons:hover, .banner-buttons:focus {
+.banner__buttons:hover, .banner__buttons:focus {
   background-color: #188ce8;
 }
 
-.banner-buttons.footer-subscribe-form__button {
+.banner__buttons.footer-subscribe-form__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -617,21 +617,21 @@ img {
   margin-left: 12px;
 }
 
-.banner-buttons.footer-subscribe-form__button:hover, .banner-buttons.footer-subscribe-form__button:focus {
+.banner__buttons.footer-subscribe-form__button:hover, .banner__buttons.footer-subscribe-form__button:focus {
   background-color: #188ce8;
 }
 
-.banner-buttons.contact-form-submit-btn {
+.banner__buttons.contact-form-submit-btn {
   display: block;
   margin: 0 auto;
   padding: 10px 56px;
 }
 
-.banner-buttons.contact-form-submit-btn:hover, .banner-buttons.contact-form-submit-btn:focus {
+.banner__buttons.contact-form-submit-btn:hover, .banner__buttons.contact-form-submit-btn:focus {
   background-color: #188ce8;
 }
 
-.section-title {
+.section__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
