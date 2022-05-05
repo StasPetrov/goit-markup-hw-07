@@ -53,18 +53,6 @@ img {
   height: auto;
 }
 
-.section {
-  padding: 94px 0;
-}
-
-.section--padding--zero {
-  padding-top: 0;
-}
-
-.section--background--white {
-  background-color: #f5f4fa;
-}
-
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -580,11 +568,11 @@ img {
   letter-spacing: 0.03em;
 }
 
-.logo--color--black {
+.logo__black {
   color: #000000;
 }
 
-.logo--color--white {
+.logo__white {
   color: var(--primary-white-color);
 }
 
@@ -629,6 +617,18 @@ img {
 
 .banner__buttons.contact-form-submit-btn:hover, .banner__buttons.contact-form-submit-btn:focus {
   background-color: #188ce8;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.section--padding--zero {
+  padding-top: 0;
+}
+
+.section--background--white {
+  background-color: #f5f4fa;
 }
 
 .section__title {
