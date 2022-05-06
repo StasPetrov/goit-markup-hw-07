@@ -39,6 +39,12 @@
           </ul>
         </nav>
 
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+
         <ul class="contact-header">
           <li class="contact-header__item contact-header__item--margin--right">
             <a class="contact-header__link" href="mailto:info@devstudio.com">
@@ -58,20 +64,74 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__btn-close" data-menu-close>
+            <svg class="mobile-menu__icon-close" width="40" height="40">
+              <use href="./images/icons.svg#icon-close-mobile"></use>
+            </svg>
+          </button>
+          <div class="menu-wrapper">
+            <ul class="mobile-nav">
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link mobile-nav__link--current" href="./index.html">Студия</a>
+              </li>
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mobile-contact-container">
+            <ul class="mobile-contact-header">
+              <li class="mobile-contact-header__item">
+                <a
+                  class="mobile-contact-header_link mobile-contact-header_link--accent"
+                  href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-contact-header__item">
+                <a class="mobile-contact-header_link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="mobile-header-social">
+              <li class="mobile-header-social__item">
+                <a class="mobile-header-social__link" href="">Instagram</a>
+              </li>
+              <li class="mobile-header-social__item">
+                <a class="mobile-header-social__link" href="">Twitter</a>
+              </li>
+              <li class="mobile-header-social__item">
+                <a class="mobile-header-social__link" href="">Facebook</a>
+              </li>
+              <li class="mobile-header-social__item">
+                <a class="mobile-header-social__link" href="">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Уникальный контент -->
     <main>
       <!-- Баннер -->
-      <section class="banner">
+      <!-- <section class="banner">
         <div class="container">
           <h1 class="banner__title">Эффективные решения для вашего бизнеса</h1>
           <button class="banner__buttons" type="button" data-modal-open>Заказать услугу</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Особенности -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section__title visually-hidden">Особенности</h2>
           <ul class="features-list">
@@ -121,10 +181,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Чем мы занимаемся -->
-      <section class="section section--padding--zero">
+      <!-- <section class="section section--padding--zero">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="project-list">
@@ -160,10 +220,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Наша команда -->
-      <section class="section section--background--white">
+      <!-- <section class="section section--background--white">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team-list">
@@ -344,18 +404,18 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Футер -->
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
       <div class="container">
         <div class="footer-container">
           <div class="address-container">
-            <a class="logo" href="./index.html">Web<span class="logo__white">Studio</span></a>
+            <a class="logo" href="./index.html">Web<span class="logo__white">Studio</span></a> -->
 
-            <!-- Контакты -->
-            <address class="address">
+    <!-- Контакты -->
+    <!-- <address class="address">
               <ul class="contact-footer">
                 <li class="contact-footer__item">
                   <a class="contact-footer__link" href="https://goo.gl/maps/V5BgEMV831Q8AJGa7"
@@ -498,7 +558,8 @@
           <button class="banner__buttons contact-form-submit-btn" type="submit">Отправить</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
